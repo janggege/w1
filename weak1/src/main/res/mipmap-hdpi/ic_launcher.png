@@ -1,0 +1,108 @@
+package shixun.lj.bw.weak.mvp.adapter;
+
+import android.content.Context;
+import android.support.annotation.NonNull;
+import android.support.v7.widget.RecyclerView;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import com.bumptech.glide.Glide;
+
+import java.util.List;
+
+import shixun.lj.bw.weak.R;
+import shixun.lj.bw.weak.mvp.data.Datas;
+
+/*
+  name:刘江
+  data:2019
+*/public class Myadapter extends RecyclerView.Adapter<Myadapter.Viewholder> {
+    Datas datas;
+    Context context;
+    private String url = "http://365jia.cn/uploads/";
+    public static final int one = 0;
+    public static final int two = 1;
+
+
+    public Myadapter(Datas datas, Context context) {
+        this.datas = datas;
+        this.context = context;
+    }
+
+
+    @NonNull
+    @Override
+    public Myadapter.Viewholder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
+        int type = getItemViewType(i);
+        if (type == one) {
+            View inflate = LayoutInflater.from(context).inflate(R.layout.iteam, null, false);
+            Viewholder viewholder = new Viewholder(inflate);
+            return viewholder;
+        } else {
+
+        }
+
+
+    }
+
+    @Override
+    public void onBindViewHolder(@NonNull Myadapter.Viewholder viewholder, final int i) {
+        viewholder.textView.setText(datas.getData().getData().get(i).getTitle());
+        String s = datas.getData().getData().get(i).getPics().get(0);
+        Glide.with(context).load(url + s).into(viewholder.imageView);
+        viewholder.itemView.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                onclick.onlongclick(v.getId());
+                removeList(i);
+                return true;
+            }
+        });
+
+
+    }
+
+    @Override
+    public int getItemCount() {
+        return datas.getData().getData().size();
+    }
+
+    public class Viewholder extends RecyclerView.ViewHolder {
+
+        private final ImageView imageView;
+        private final TextView textView;
+
+        public Viewholder(@NonNull View itemView) {
+            super(itemView);
+            imageView = itemView.findViewById(R.id.image);
+            textView = itemView.findViewById(R.id.text);
+
+        }
+    }
+
+    public class Viewholder1 extends RecyclerView.ViewHolder {
+
+     
+        public Viewholder1(@NonNull View itemView) {
+            super(itemView);
+
+        }
+    }
+
+    public interface onclick {
+        void onlongclick(int id);
+
+    }
+
+    onclick onclick;
+
+    public void setOnclick(Myadapter.onclick onclick) {
+        this.onclick = onclick;
+    }
+
+    public void removeList(int position) {
+        datas.getData().getData().remove(position);//删除数据源,移除集合中当前下标的数据
+       

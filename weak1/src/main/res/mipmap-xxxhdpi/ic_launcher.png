@@ -1,0 +1,172 @@
+<application>
+  <component name="ActionsCollector">
+    <counts>
+      <entry action="$Copy" count="520" />
+      <entry action="$Cut" count="9" />
+      <entry action="$Delete" count="329" />
+      <entry action="$Paste" count="590" />
+      <entry action="$SelectAll" count="98" />
+      <entry action="$Undo" count="5721" />
+      <entry action="About" count="2" />
+      <entry action="AddToFavoritesPopup" count="1" />
+      <entry action="Android.AnalyzeApk" count="2" />
+      <entry action="Android.BuildApk" count="1" />
+      <entry action="Android.CreateResourceDirectory" count="1" />
+      <entry action="Android.CreateSampleDataDirectory" count="6" />
+      <entry action="Android.GenerateSignedApk" count="12" />
+      <entry action="Android.LinkExternalCppProject" count="1" />
+      <entry action="Android.RunAndroidSdkManager" count="3" />
+      <entry action="Android.SyncProject" count="1" />
+      <entry action="AndroidConnectDebuggerAction" count="1" />
+      <entry action="AndroidUnusedResourceAction" count="4" />
+      <entry action="AutoIndentLines" count="1" />
+      <entry action="Back" count="33" />
+      <entry action="ClassNameCompletion" count="11" />
+      <entry action="CleanGradleProject" count="10" />
+      <entry action="CloseAllEditors" count="4" />
+      <entry action="CloseAllEditorsButActive" count="2" />
+      <entry action="CommentByBlockComment" count="31" />
+      <entry action="CommentByLineComment" count="250" />
+      <entry action="CompareTwoFiles" count="1" />
+      <entry action="ConsoleView.ClearAll" count="39" />
+      <entry action="ContextHelp" count="1" />
+      <entry action="CopyAsPlainText" count="2" />
+      <entry action="CopyPaths" count="2" />
+      <entry action="CopyReference" count="3" />
+      <entry action="CopyUrl" count="1" />
+      <entry action="CreateLibraryFromFile" count="86" />
+      <entry action="CreateResourceBundle" count="1" />
+      <entry action="CreateRunConfiguration" count="1" />
+      <entry action="Debug" count="66" />
+      <entry action="DialogOkAction Enter" count="993" />
+      <entry action="EditorBackSpace" count="72852" />
+      <entry action="EditorChooseLookupItem" count="34083" />
+      <entry action="EditorCodeBlockEnd" count="2" />
+      <entry action="EditorCompleteStatement" count="18" />
+      <entry action="EditorCopy" count="5067" />
+      <entry action="EditorCut" count="163" />
+      <entry action="EditorDelete" count="20" />
+      <entry action="EditorDeleteLine" count="1" />
+      <entry action="EditorDeleteToWordStart" count="42" />
+      <entry action="EditorDown" count="23329" />
+      <entry action="EditorDownWithSelection" count="1" />
+      <entry action="EditorDuplicate" count="27" />
+      <entry action="EditorEnter" count="19406" />
+      <entry action="EditorIndentSelection" count="1" />
+      <entry action="EditorLeft" count="6567" />
+      <entry action="EditorLeftWithSelection" count="1" />
+      <entry action="EditorNextWord" count="2" />
+      <entry action="EditorPaste" count="5898" />
+      <entry action="EditorPreviousWord" count="58" />
+      <entry action="EditorRight" count="7177" />
+      <entry action="EditorRightWithSelection" count="1" />
+      <entry action="EditorScrollToCenter" count="3" />
+      <entry action="EditorSelectWord" count="35" />
+      <entry action="EditorSplitLine" count="163" />
+      <entry action="EditorStartNewLine" count="12" />
+      <entry action="EditorStartNewLineBefore" count="24" />
+      <entry action="EditorTab" count="36" />
+      <entry action="EditorToggleInsertState" count="1" />
+      <entry action="EditorUp" count="4094" />
+      <entry action="Exit" count="1" />
+      <entry action="ExpandRegion" count="3" />
+      <entry action="ExtractMethod" count="121" />
+      <entry action="FileChooser.GotoHome" count="1" />
+      <entry action="Find" count="8" />
+      <entry action="FindInPath" count="5" />
+      <entry action="FindNext" count="294" />
+      <entry action="FindPrevious" count="6" />
+      <entry action="ForceStepInto" count="26" />
+      <entry action="Generate" count="404" />
+      <entry action="Generify" count="2" />
+      <entry action="Github.Create.Gist" count="10" />
+      <entry action="GoogleCloudTesting.TestRecorder" count="1" />
+      <entry action="GoogleCloudTools.SampleImport" count="2" />
+      <entry action="GotoBookmark1" count="111" />
+      <entry action="GotoBookmark7" count="1" />
+      <entry action="GotoCustomRegion" count="4" />
+      <entry action="GotoDeclaration" count="2433" />
+      <entry action="GotoFile" count="1" />
+      <entry action="GotoImplementation" count="2" />
+      <entry action="GotoLine" count="7" />
+      <entry action="GotoTypeDeclaration" count="32" />
+      <entry action="Gsonformat" count="95" />
+      <entry action="HideAllWindows" count="145" />
+      <entry action="HippieCompletion" count="314" />
+      <entry action="ImportApkAction" count="1" />
+      <entry action="ImportModule" count="119" />
+      <entry action="ImportProject" count="167" />
+      <entry action="ImportSettings" count="1" />
+      <entry action="InsertLiveTemplate" count="1" />
+      <entry action="IntroduceField" count="587" />
+      <entry action="IntroduceParameter" count="4" />
+      <entry action="IntroduceVariable" count="16" />
+      <entry action="InvalidateCaches" count="2" />
+      <entry action="Kotlin.NewFile" count="21" />
+      <entry action="Kotlin.NewScript" count="1" />
+      <entry action="LoadUnloadModules" count="44" />
+      <entry action="MakeGradleProject" count="137" />
+      <entry action="NewClass" count="591" />
+      <entry action="NewDir" count="325" />
+      <entry action="NewFile" count="11" />
+      <entry action="NewModule" count="48" />
+      <entry action="NewModuleInGroup" count="103" />
+      <entry action="NewProject" count="73" />
+      <entry action="NewScratchFile" count="2" />
+      <entry action="NextTemplateVariable" count="133" />
+      <entry action="OpenFile" count="1" />
+      <entry action="OpenModuleSettings" count="1" />
+      <entry action="OptimizeImports" count="288" />
+      <entry action="OverrideMethods" count="10" />
+      <entry action="PasteMultiple" count="1" />
+      <entry action="Pause" count="12" />
+      <entry action="Print" count="1" />
+      <entry action="Progress Paused" count="3" />
+      <entry action="Progress Resumed" count="46" />
+      <entry action="QuickJavaDoc" count="1" />
+      <entry action="ReformatCode" count="7615" />
+      <entry action="RenameElement" count="3" />
+      <entry action="Rerun" count="4" />
+      <entry action="Resume" count="44" />
+      <entry action="RevealIn" count="4" />
+      <entry action="Run" count="3174" />
+      <entry action="SafeDelete" count="2" />
+      <entry action="SaveAll" count="52789" />
+      <entry action="ScreenMatch.MainAction" count="2" />
+      <entry action="SearchEverywhere" count="12" />
+      <entry action="ShowErrorDescription" count="4" />
+      <entry action="ShowFilePath" count="1" />
+      <entry action="ShowIntentionActions" count="3979" />
+      <entry action="ShowNavBar" count="1" />
+      <entry action="ShowSettings" count="20" />
+      <entry action="SmartTypeCompletion" count="1" />
+      <entry action="StepInto" count="212" />
+      <entry action="StepOver" count="330" />
+      <entry action="Stop" count="16" />
+      <entry action="SurroundWithLiveTemplate" count="1" />
+      <entry action="SwitchCoverage" count="1" />
+      <entry action="Switcher" count="50" />
+      <entry action="SynchronizeCurrentFile" count="1" />
+      <entry action="TemplateProjectProperties" count="2" />
+      <entry action="ToggleLineBreakpoint" count="365" />
+      <entry action="Unscramble" count="1" />
+      <entry action="UsageView.Remove" count="1" />
+      <entry action="Vcs.UpdateProject" count="1" />
+      <entry action="ViewBreakpoints" count="2" />
+      <entry action="XDebugger.CopyValue" count="1" />
+      <entry action="context.load" count="3" />
+      <entry action="context.save" count="6" />
+      <entry action="editRunConfigurations" count="3" />
+      <entry action="template.create.ActivityBasic Activity" count="3" />
+      <entry action="template.create.ActivityEmpty Activity" count="43" />
+      <entry action="template.create.XMLApp Actions XML File" count="2" />
+      <entry action="template.create.XMLLayout XML File" count="3" />
+      <entry action="template.create.XMLValues XML File" count="3" />
+    </counts>
+  </component>
+  <component name="FeatureUsageStatistics" first-run="1545640440590" have-been-shown="false" show-in-other="true" show-in-compilation="true">
+    <feature id="refactoring.moveTopLevel" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="refactoring.introduceTypedef" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="refactoring.rename" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="refactoring.pushDown" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="refactoring.inlineMacro" count="0" last-shown="0" last-u
